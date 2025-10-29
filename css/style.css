@@ -52,6 +52,5 @@ h1 {
   display: grid;
   gap: 1rem;
   justify-content: start; 
-   grid-template-columns: repeat(4, 1fr) minmax(120px, 1fr);
+  grid-template-columns: repeat(4, 1fr) minmax(120px, 1fr);
 }
-
