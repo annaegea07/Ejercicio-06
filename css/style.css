@@ -41,7 +41,6 @@ h1 {
   background-color: var( --color-bg-sub);
   padding: 1rem;
 }
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
