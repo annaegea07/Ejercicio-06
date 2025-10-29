@@ -13,6 +13,7 @@ h1 {
 .grid-item {
   background-color: var(--color-bg-main);
   padding: 3rem;
+  width: 100%;
 }
 .item-1 {
   grid-column: 1 / 6;
