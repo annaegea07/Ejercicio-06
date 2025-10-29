@@ -19,7 +19,7 @@ h1 {
 }
 
 .item-2 {
-  grid-column: 1 / 1;
+  grid-column: 1 / 2;
 }
 
 .item-3 {
@@ -36,10 +36,20 @@ h1 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(1fr 2fr 1fr);
+  grid-template-columns: 1fr 2fr 1fr;
   gap:5px;
 }
+
 .sub-item {
   background-color: var( --color-bg-sub);
   padding: 1rem;
+  text-align: center;
+  min-width: 100px;  
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto); 
+  gap: 1rem;
+  justify-content: center; 
 }
